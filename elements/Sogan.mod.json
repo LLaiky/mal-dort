@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "painting",
+  "definition": {
+    "texture": "sovan.png",
+    "width": 64,
+    "height": 64,
+    "title": "Soğan",
+    "author": "Soğan Sovanoğlu"
+  }
+}

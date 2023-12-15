@@ -21,6 +21,8 @@ public class MalDortModTabs {
 				tabData.accept(MalDortModItems.DOWRITO.get());
 				tabData.accept(MalDortModBlocks.NIJIKA_BLOCK.get().asItem());
 				tabData.accept(MalDortModItems.DOWRITO_PICKAXE.get());
+				tabData.accept(MalDortModItems.TURSU_SUYU.get());
+				tabData.accept(MalDortModItems.KAVANOZ.get());
 			})
 
 					.build());

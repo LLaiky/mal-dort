@@ -67,6 +67,69 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "Sogan",
+      "type": "painting",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sogan",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TursuSuyuIksiri",
+      "type": "potion",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tursu_suyu_iksiri",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TursuSuyu",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tursu_suyu",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mal_dort/models/item/tursu_suyu.json",
+          "src/main/java/net/mcreator/maldort/item/TursuSuyuItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Kavanoz",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kavanoz",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mal_dort/models/item/kavanoz.json",
+          "src/main/java/net/mcreator/maldort/item/KavanozItem.java"
+        ]
+      }
+    },
+    {
+      "name": "KavanozTarifi",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kavanoz_tarifi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mal_dort/recipes/kavanoz_tarifi.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -74,9 +137,17 @@
   "language_map": {
     "en_us": {
       "item.mal_dort.dowrito_pickaxe": "Dowrito Pickaxe",
-      "block.mal_dort.nijika_block": "Nijika Block",
+      "item.minecraft.splash_potion.effect.tursu_suyu_iksiri": "Splash Potion of Tursu Suyu Iksiri",
+      "painting.mal_dort.sogan.title": "Soğan",
       "item.mal_dort.dowrito": "Dowrito",
-      "item_group.mal_dort.mal_dort_inventory_tab": "Mal 4"
+      "painting.mal_dort.sogan.author": "Soğan Sovanoğlu",
+      "item.mal_dort.tursu_suyu": "Tursu Suyu",
+      "block.mal_dort.nijika_block": "Nijika Block",
+      "item.minecraft.potion.effect.tursu_suyu_iksiri": "Potion of Tursu Suyu Iksiri",
+      "item_group.mal_dort.mal_dort_inventory_tab": "Mal 4",
+      "item.minecraft.lingering_potion.effect.tursu_suyu_iksiri": "Lingering Potion of Tursu Suyu Iksiri",
+      "item.mal_dort.kavanoz": "Kavanoz",
+      "item.minecraft.tipped_arrow.effect.tursu_suyu_iksiri": "Arrow of Tursu Suyu Iksiri"
     }
   },
   "foldersRoot": {

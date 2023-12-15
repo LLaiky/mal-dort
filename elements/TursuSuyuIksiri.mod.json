@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Tursu Suyu Iksiri",
+    "splashName": "Splash Potion of Tursu Suyu Iksiri",
+    "lingeringName": "Lingering Potion of Tursu Suyu Iksiri",
+    "arrowName": "Arrow of Tursu Suyu Iksiri",
+    "effects": [
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 25,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "HUNGER"
+        },
+        "duration": 26,
+        "amplifier": 2,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 20,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      },
+      {
+        "effect": {
+          "value": "SPEED"
+        },
+        "duration": 3600,
+        "amplifier": 0,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}
