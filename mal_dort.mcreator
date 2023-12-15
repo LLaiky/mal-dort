@@ -29,12 +29,27 @@
           "src/main/resources/assets/mal_dort/models/item/dowrito.json"
         ]
       }
+    },
+    {
+      "name": "DowritoPickaxe",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dowrito_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mal_dort/models/item/dowrito_pickaxe.json",
+          "src/main/java/net/mcreator/maldort/item/DowritoPickaxeItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.mal_dort.dowrito_pickaxe": "Dowrito Pickaxe",
       "block.mal_dort.nijika_block": "Nijika Block",
       "item.mal_dort.dowrito": "Dowrito"
     }

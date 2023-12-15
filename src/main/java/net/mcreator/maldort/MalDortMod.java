@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.maldort.init.MalDortModTabs;
 import net.mcreator.maldort.init.MalDortModItems;
 import net.mcreator.maldort.init.MalDortModBlocks;
 
@@ -53,6 +54,8 @@ public class MalDortMod {
 		MalDortModBlocks.REGISTRY.register(bus);
 
 		MalDortModItems.REGISTRY.register(bus);
+
+		MalDortModTabs.REGISTRY.register(bus);
 
 	}
 
