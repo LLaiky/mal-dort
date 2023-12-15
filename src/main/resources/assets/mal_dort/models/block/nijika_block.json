@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "mal_dort:block/nijikablock",
+    "up": "mal_dort:block/nijikablock",
+    "north": "mal_dort:block/nijikablock",
+    "east": "mal_dort:block/nijikablock",
+    "south": "mal_dort:block/nijikablock",
+    "west": "mal_dort:block/nijikablock",
+    "particle": "mal_dort:block/nijikablock"
+  },
+  "render_type": "solid"
+}

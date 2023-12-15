@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.maldort.init.MalDortModItems;
+import net.mcreator.maldort.init.MalDortModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,10 @@ public class MalDortMod {
 	public MalDortMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MalDortModBlocks.REGISTRY.register(bus);
+
+		MalDortModItems.REGISTRY.register(bus);
 
 	}
 

@@ -1,9 +1,27 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "NijikaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nijika_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maldort/block/NijikaBlockBlock.java",
+          "src/main/resources/assets/mal_dort/models/item/nijika_block.json",
+          "src/main/resources/assets/mal_dort/models/block/nijika_block.json",
+          "src/main/resources/assets/mal_dort/blockstates/nijika_block.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.mal_dort.nijika_block": "Nijika Block"
+    }
   },
   "foldersRoot": {
     "name": "~",
