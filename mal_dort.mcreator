@@ -3,6 +3,7 @@
     {
       "name": "NijikaBlock",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nijika_block",
@@ -14,13 +15,28 @@
           "src/main/resources/assets/mal_dort/blockstates/nijika_block.json"
         ]
       }
+    },
+    {
+      "name": "Dowrito",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dowrito",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maldort/item/DowritoItem.java",
+          "src/main/resources/assets/mal_dort/models/item/dowrito.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.mal_dort.nijika_block": "Nijika Block"
+      "block.mal_dort.nijika_block": "Nijika Block",
+      "item.mal_dort.dowrito": "Dowrito"
     }
   },
   "foldersRoot": {

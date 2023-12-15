@@ -12,10 +12,12 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.maldort.item.DowritoItem;
 import net.mcreator.maldort.MalDortMod;
 
 public class MalDortModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, MalDortMod.MODID);
+	public static final RegistryObject<Item> DOWRITO = REGISTRY.register("dowrito", () -> new DowritoItem());
 	public static final RegistryObject<Item> NIJIKA_BLOCK = block(MalDortModBlocks.NIJIKA_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
