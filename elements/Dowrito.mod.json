@@ -10,7 +10,7 @@
     "name": "Dowrito",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:MalDortInventoryTab"
     },
     "stackSize": 64,
     "enchantability": 0,

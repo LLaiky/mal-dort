@@ -9,7 +9,7 @@
     "name": "Dowrito Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MalDortInventoryTab"
     },
     "harvestLevel": 5,
     "efficiency": 14.0,
