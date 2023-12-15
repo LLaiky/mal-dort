@@ -43,6 +43,19 @@
           "src/main/java/net/mcreator/maldort/item/DowritoPickaxeItem.java"
         ]
       }
+    },
+    {
+      "name": "DowritoPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dowrito_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/mal_dort/recipes/dowrito_pickaxe_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
