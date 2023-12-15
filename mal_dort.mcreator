@@ -56,6 +56,17 @@
           "src/main/resources/data/mal_dort/recipes/dowrito_pickaxe_recipe.json"
         ]
       }
+    },
+    {
+      "name": "MalDortInventoryTab",
+      "type": "tab",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mal_dort_inventory_tab",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -64,7 +75,8 @@
     "en_us": {
       "item.mal_dort.dowrito_pickaxe": "Dowrito Pickaxe",
       "block.mal_dort.nijika_block": "Nijika Block",
-      "item.mal_dort.dowrito": "Dowrito"
+      "item.mal_dort.dowrito": "Dowrito",
+      "item_group.mal_dort.mal_dort_inventory_tab": "Mal Dort Inventory Tab"
     }
   },
   "foldersRoot": {

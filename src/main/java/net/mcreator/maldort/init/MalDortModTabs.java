@@ -22,6 +22,10 @@ public class MalDortModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(MalDortModBlocks.NIJIKA_BLOCK.get().asItem());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MalDortModItems.DOWRITO_PICKAXE.get());
 		}

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Mal Dort Inventory Tab",
+    "icon": {
+      "value": "CUSTOM:Dowrito"
+    },
+    "showSearch": false
+  }
+}
