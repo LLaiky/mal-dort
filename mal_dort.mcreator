@@ -179,6 +179,35 @@
           }
         ]
       }
+    },
+    {
+      "name": "Encantmint",
+      "type": "enchantment",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "encantmint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maldort/enchantment/EncantmintEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "TrophyNJ",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trophy_nj",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/mal_dort/models/block/trophy_nj.json",
+          "src/main/java/net/mcreator/maldort/block/TrophyNJBlock.java",
+          "src/main/resources/assets/mal_dort/models/item/trophy_nj.json",
+          "src/main/resources/assets/mal_dort/blockstates/trophy_nj.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -188,12 +217,14 @@
       "item.mal_dort.dowrito_pickaxe": "Dowrito Pickaxe",
       "item.minecraft.splash_potion.effect.tursu_suyu_iksiri": "Splash Potion of Pickle Juice",
       "painting.mal_dort.sogan.title": "Onion",
+      "enchantment.mal_dort.encantmint": "Dowritolanma Laneti",
       "item.mal_dort.dowrito": "Dowrito",
       "painting.mal_dort.sogan.author": "Onion Oionson",
       "item.mal_dort.tursu_suyu": "Pickle Juice In a Jar",
       "block.mal_dort.nijika_block": "Nijika Block",
       "item.mal_dort.su_kavanoz": "Jar Filled with Water",
       "item.minecraft.potion.effect.tursu_suyu_iksiri": "Potion of Pickle Juice",
+      "block.mal_dort.trophy_nj": "Drumstick Trophy",
       "item_group.mal_dort.mal_dort_inventory_tab": "Idiot 4",
       "item.minecraft.lingering_potion.effect.tursu_suyu_iksiri": "Lingering Potion of Pickle Juice",
       "item.mal_dort.kavanoz": "Jar",
@@ -203,12 +234,14 @@
       "item.mal_dort.dowrito_pickaxe": "Dowrito Kazma",
       "item.minecraft.splash_potion.effect.tursu_suyu_iksiri": "Patlayıcı Turşu Suyu İksiri",
       "painting.mal_dort.sogan.title": "Soğan",
+      "enchantment.mal_dort.encantmint": "Dowritolanma Laneti",
       "item.mal_dort.dowrito": "Dowrito",
       "painting.mal_dort.sogan.author": "Sogan Sovanoğlu",
       "item.mal_dort.tursu_suyu": "Turşu Suyu Kavanozu",
       "block.mal_dort.nijika_block": "Nijika Blok",
       "item.mal_dort.su_kavanoz": "Su Dolu Kavanoz",
       "item.minecraft.potion.effect.tursu_suyu_iksiri": "Turşu Suyu İksiri",
+      "block.mal_dort.trophy_nj": "Drumstick Trophy",
       "item_group.mal_dort.mal_dort_inventory_tab": "Mal 4",
       "item.minecraft.lingering_potion.effect.tursu_suyu_iksiri": "Kalıcı Turşu Suyu İksiri",
       "item.mal_dort.kavanoz": "Kavanoz",

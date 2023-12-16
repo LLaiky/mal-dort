@@ -27,6 +27,7 @@ public class MalDortModItems {
 	public static final RegistryObject<Item> TURSU_SUYU = REGISTRY.register("tursu_suyu", () -> new TursuSuyuItem());
 	public static final RegistryObject<Item> KAVANOZ = REGISTRY.register("kavanoz", () -> new KavanozItem());
 	public static final RegistryObject<Item> SU_KAVANOZ = REGISTRY.register("su_kavanoz", () -> new SuKavanozItem());
+	public static final RegistryObject<Item> TROPHY_NJ = block(MalDortModBlocks.TROPHY_NJ);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -1,0 +1,9 @@
+{
+  "parent": "mal_dort:custom/trophy1",
+  "textures": {
+    "all": "mal_dort:block/trophy1_texture",
+    "particle": "mal_dort:block/trophy1_texture",
+    "0": "mal_dort:block/trophy1_texture"
+  },
+  "render_type": "solid"
+}

@@ -24,6 +24,7 @@ public class MalDortModTabs {
 				tabData.accept(MalDortModItems.TURSU_SUYU.get());
 				tabData.accept(MalDortModItems.KAVANOZ.get());
 				tabData.accept(MalDortModItems.SU_KAVANOZ.get());
+				tabData.accept(MalDortModBlocks.TROPHY_NJ.get().asItem());
 			})
 
 					.build());

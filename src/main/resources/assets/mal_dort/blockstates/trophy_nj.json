@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mal_dort:block/trophy_nj"
+    },
+    "facing=east": {
+      "model": "mal_dort:block/trophy_nj",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "mal_dort:block/trophy_nj",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mal_dort:block/trophy_nj",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "mal_dort:block/trophy_nj",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "mal_dort:block/trophy_nj",
+      "x": 90
+    }
+  }
+}

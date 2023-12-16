@@ -10,10 +10,12 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.maldort.block.TrophyNJBlock;
 import net.mcreator.maldort.block.NijikaBlockBlock;
 import net.mcreator.maldort.MalDortMod;
 
 public class MalDortModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MalDortMod.MODID);
 	public static final RegistryObject<Block> NIJIKA_BLOCK = REGISTRY.register("nijika_block", () -> new NijikaBlockBlock());
+	public static final RegistryObject<Block> TROPHY_NJ = REGISTRY.register("trophy_nj", () -> new TrophyNJBlock());
 }
