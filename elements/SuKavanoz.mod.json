@@ -3,11 +3,11 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "tursu_suyu",
+    "texture": "sukavanoz",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Pickle Juice In a Jar",
+    "name": "Jar Filled with Water",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:MalDortInventoryTab"
