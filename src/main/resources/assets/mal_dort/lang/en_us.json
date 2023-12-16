@@ -1,14 +1,14 @@
 {
   "item.mal_dort.dowrito_pickaxe": "Dowrito Pickaxe",
-  "item.minecraft.splash_potion.effect.tursu_suyu_iksiri": "Splash Potion of Tursu Suyu Iksiri",
+  "item.minecraft.splash_potion.effect.tursu_suyu_iksiri": "Splash Potion of Pickle Juice",
   "painting.mal_dort.sogan.title": "Soğan",
   "item.mal_dort.dowrito": "Dowrito",
   "painting.mal_dort.sogan.author": "Soğan Sovanoğlu",
-  "item.mal_dort.tursu_suyu": "Tursu Suyu",
+  "item.mal_dort.tursu_suyu": "Pickle Juice In a Jar",
   "block.mal_dort.nijika_block": "Nijika Block",
-  "item.minecraft.potion.effect.tursu_suyu_iksiri": "Potion of Tursu Suyu Iksiri",
+  "item.minecraft.potion.effect.tursu_suyu_iksiri": "Potion of Pickle Juice",
   "item_group.mal_dort.mal_dort_inventory_tab": "Mal 4",
-  "item.minecraft.lingering_potion.effect.tursu_suyu_iksiri": "Lingering Potion of Tursu Suyu Iksiri",
-  "item.mal_dort.kavanoz": "Kavanoz",
-  "item.minecraft.tipped_arrow.effect.tursu_suyu_iksiri": "Arrow of Tursu Suyu Iksiri"
+  "item.minecraft.lingering_potion.effect.tursu_suyu_iksiri": "Lingering Potion of Pickle Juice",
+  "item.mal_dort.kavanoz": "Jar",
+  "item.minecraft.tipped_arrow.effect.tursu_suyu_iksiri": "Arrow of Pickle Juice"
 }

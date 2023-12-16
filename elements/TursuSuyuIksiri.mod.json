@@ -2,10 +2,10 @@
   "_fv": 47,
   "_type": "potion",
   "definition": {
-    "potionName": "Potion of Tursu Suyu Iksiri",
-    "splashName": "Splash Potion of Tursu Suyu Iksiri",
-    "lingeringName": "Lingering Potion of Tursu Suyu Iksiri",
-    "arrowName": "Arrow of Tursu Suyu Iksiri",
+    "potionName": "Potion of Pickle Juice",
+    "splashName": "Splash Potion of Pickle Juice",
+    "lingeringName": "Lingering Potion of Pickle Juice",
+    "arrowName": "Arrow of Pickle Juice",
     "effects": [
       {
         "effect": {
@@ -31,15 +31,6 @@
         },
         "duration": 20,
         "amplifier": 1,
-        "ambient": false,
-        "showParticles": true
-      },
-      {
-        "effect": {
-          "value": "SPEED"
-        },
-        "duration": 3600,
-        "amplifier": 0,
         "ambient": false,
         "showParticles": true
       }
