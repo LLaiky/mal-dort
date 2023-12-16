@@ -33,6 +33,7 @@ import net.mcreator.maldort.init.MalDortModTabs;
 import net.mcreator.maldort.init.MalDortModPotions;
 import net.mcreator.maldort.init.MalDortModPaintings;
 import net.mcreator.maldort.init.MalDortModItems;
+import net.mcreator.maldort.init.MalDortModFeatures;
 import net.mcreator.maldort.init.MalDortModEnchantments;
 import net.mcreator.maldort.init.MalDortModBlocks;
 
@@ -60,6 +61,7 @@ public class MalDortMod {
 
 		MalDortModEnchantments.REGISTRY.register(bus);
 		MalDortModTabs.REGISTRY.register(bus);
+		MalDortModFeatures.REGISTRY.register(bus);
 
 		MalDortModPotions.REGISTRY.register(bus);
 		MalDortModPaintings.REGISTRY.register(bus);

@@ -1,13 +1,9 @@
 {
-  "parent": "block/cube",
+  "parent": "mal_dort:custom/njore",
   "textures": {
-    "down": "mal_dort:block/nijikablock",
-    "up": "mal_dort:block/nijikablock",
-    "north": "mal_dort:block/nijikablock",
-    "east": "mal_dort:block/nijikablock",
-    "south": "mal_dort:block/nijikablock",
-    "west": "mal_dort:block/nijikablock",
-    "particle": "mal_dort:block/nijikablock"
+    "all": "mal_dort:block/nj_ore_texture",
+    "particle": "mal_dort:block/nj_ore_texture",
+    "0": "mal_dort:block/nj_ore_texture"
   },
   "render_type": "solid"
 }

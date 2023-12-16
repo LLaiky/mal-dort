@@ -2,14 +2,14 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "nijikablock",
+    "texture": "nj_ore_texture",
     "textureTop": "nijikablock",
     "textureLeft": "nijikablock",
     "textureFront": "nijikablock",
     "textureRight": "nijikablock",
     "textureBack": "nijikablock",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 2,
+    "customModelName": "njore:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -33,9 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "Nijika Block",
+    "name": "Dowrito Ore",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 1.25,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -52,7 +52,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "ROCK"
     },
@@ -117,7 +117,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
@@ -133,10 +135,10 @@
         "value": "Blocks.STONE#5"
       }
     ],
-    "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 16,
-    "minGenerateHeight": 0,
+    "generationShape": "TRIANGLE",
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 7,
+    "minGenerateHeight": -64,
     "maxGenerateHeight": 64
   }
 }

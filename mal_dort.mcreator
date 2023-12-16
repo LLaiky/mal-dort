@@ -10,8 +10,12 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/maldort/block/NijikaBlockBlock.java",
+          "src/main/resources/data/mal_dort/worldgen/configured_feature/nijika_block.json",
+          "src/main/resources/data/mal_dort/worldgen/placed_feature/nijika_block.json",
           "src/main/resources/assets/mal_dort/models/item/nijika_block.json",
           "src/main/resources/assets/mal_dort/models/block/nijika_block.json",
+          "src/main/resources/data/mal_dort/forge/biome_modifier/nijika_block_biome_modifier.json",
+          "src/main/java/net/mcreator/maldort/world/features/ores/NijikaBlockFeature.java",
           "src/main/resources/assets/mal_dort/blockstates/nijika_block.json"
         ]
       }
@@ -221,7 +225,7 @@
       "item.mal_dort.dowrito": "Dowrito",
       "painting.mal_dort.sogan.author": "Onion Oionson",
       "item.mal_dort.tursu_suyu": "Pickle Juice In a Jar",
-      "block.mal_dort.nijika_block": "Nijika Block",
+      "block.mal_dort.nijika_block": "Dowrito Ore",
       "item.mal_dort.su_kavanoz": "Jar Filled with Water",
       "item.minecraft.potion.effect.tursu_suyu_iksiri": "Potion of Pickle Juice",
       "block.mal_dort.trophy_nj": "Drumstick Trophy",
