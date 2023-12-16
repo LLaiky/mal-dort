@@ -51,6 +51,13 @@ public class KavanozRightclickedProcedure {
 					.createLegacyBlock()).getBlock() == Blocks.WATER) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.MAIN_HAND, true);
+				if (entity instanceof LivingEntity _entity) {
+					ItemStack _setstack = new ItemStack(MalDortModItems.KAVANOZ.get());
+					_setstack.setCount((int) ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1));
+					_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
+					if (_entity instanceof Player _player)
+						_player.getInventory().setChanged();
+				}
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(MalDortModItems.SU_KAVANOZ.get());
 					_setstack.setCount(1);
